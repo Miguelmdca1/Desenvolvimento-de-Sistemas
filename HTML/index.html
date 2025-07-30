@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula</title>
+</head>
+<body>
+    
+<!-- Tagas de Titulos e Subtitulos h1 -->
+<h1>Titulo 1</h1>
+<h2>Titulo 2</h2>
+<h3>Titulo 3</h3>
+<h4>Titulo 4</h4>
+<h5>Titulo 5</h5>
+<h6>Titulo 6</h6>
+
+<!-- Paragrafo -->
+<p>
+    Isso é um Paragrafo
+<p>Paragrafo dentro do paragrafo</p>
+
+
+</p>
+
+<!-- Links -->
+
+<a href="https://www.google.com/search?q=estudante+online&oq=estuda&gs_lcrp=EgZjaHJvbWUqBwgAEAAYgAQyBwgAEAAYgAQyBwgBEAAYgAQyBwgCEAAYgAQyCQgDEEUYORiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDIyMzVqMGo3qAIAsAIB&sourceid=chrome&ie=UTF-8&sei=ZwSIaJzaLO7M5OUPmsrcqQ4">Click Aqui</a>
+<br>
+
+<!-- Target é utilizado para ele ir para outra página porém abrindo uma nova aba -->
+
+<a href="https://www.google.com/?hl=pt_BR" target="_blank">
+    Click Aqui para outra pagina
+</a>
+  <br>  <!-- <br>  PULA LINHA -->
+
+<!-- Para outra página HTML que eu criei no VS -->
+
+<a href="./pagina2.html">Outra Página</a>
+<br>
+
+
+<!-- Formas de escrever Negrito e Italico -->
+
+<strong>Negrito</strong>
+<br>
+<em>Italico</em>
+<br>
+<b>Negrito</b>
+<br>
+<i>Italico</i>
+
+<!-- Lista não ordenada -->
+<h4>Lista ordenada</h4>
+<ol>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    <li>Item</li>
+    
+</ol>
+
+
+<h4>Lista com Descrição</h4>
+<dl>  <!-- <dl> Dentro da Lista  -->
+    <dt>Titulo</dl>
+    <dd>Descrição1</dd>
+    <dd>Descrição2</dd>
+    <dd>Descrição3</dd>
+</dl>
+<dl>
+    <!-- dt Dentro da Lista -->
+    <dt>Itens para o mercado</dt> 
+    <!-- dd Dentro Descrição -->
+    <dd>Shampoo</dd>
+    <dd>Arroz</dd>
+</dl>
+
+<h2>Imagens</h2>
+
+<br>
+
+<img src="https://i.pinimg.com/736x/1f/ae/3a/1fae3a446f0ce3ee9456d73f6500989e.jpg">
+
+<!-- Texto Alternativo -->
+
+<img alt="Iphone Roxo" src="https://i.pinimg.com/736x/1f/ae/3a/1fae3a446f0ce3ee9456d73f6500989e.jpg">
+<br>
+
+<img src="./assets/cuscus.jpg" height="700px" width="1080px">
+
+<br>
+<!-- Figura -->
+
+<figure>
+    <img src="./assets/cuscus.jpg" height="520px" width="1080px">
+    <figcaption> <h1>ISSO É O FELLIPE</h1></figcaption>
+</figure>
+
+<br>
+
+<h2>Tabelas</h2>
+<!-- tr - Linha da tabela -->
+<table>
+    <!-- Th - Titulo da coluna -->
+    <tr>
+        <th>Coluna 1</th>
+        <th>Coluna 2</th>
+        <th>Coluna 3</th>
+    </tr>
+    <tr>
+        <!-- Td Descrição/dados -->
+        <td>Celula1</td>
+        <td>Celula2</td>
+        <td>Celula3</td>
+    </tr>
+</table>
+
+<h2>Tag de Formulario</h2>
+
+<!-- Necessario uuso de form para validação de dados -->
+<form>
+    <fieldset>
+<legend>Formulário</legend>
+    <!-- Entrada de dado
+         Type = tipo de dado
+         Placeholder = instrução para entrada dos dados -->
+    <label>Nome:</label>
+    <input type="text" name="Nome" placeholder="Digite o seu Nome:">
+    <!-- Tipo senha -->
+    <br>
+    <label>Senha:</label>
+    <input type="password" name="Senha" placeholder="Digite a sua senha:" required>
+    <!-- Tipo email -->
+    <br>
+    <label>Email:</label>
+    <input type="email" name="Email:" placeholder="Digite o seu email:" required>
+    <br>
+        <!--Tipo Numero  -->
+    <label>Idade</label>
+    <input type="number"   max="120" min="0" name="Idade" placeholder="Digite sua idade:" required>
+
+    <!-- Uma área de texto -->
+    <br>
+    <labe>Área de texto</labe>
+    <textarea></textarea>
+    <br>
+    <label>Input de Seleção</label>
+    <select>
+        <option>Valor 1</option>
+        <option>Valor 2</option>
+        <option>Valor 3</option>
+    </select>
+    <br>
+
+
+    <!-- Enviar dados -->
+    <!-- Primeira forma -->
+    <input type="submit">
+    <br>
+    <button type="submit">Enviar</button>
+</fieldset>
+</form>
+
+</body>
+</html>
